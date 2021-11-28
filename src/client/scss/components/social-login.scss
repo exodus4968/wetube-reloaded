@@ -1,0 +1,18 @@
+.social__login {
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  padding-top: 30px;
+  margin-top: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  .social__btn--github {
+    background-color: #30a952;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    color: white;
+    width: 90%;
+  }
+}

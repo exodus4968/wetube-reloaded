@@ -1,0 +1,26 @@
+.upload {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .upload__border {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 30%;
+  }
+  .upload__video {
+    width: 100%;
+    height: 70%;
+    display: block;
+    border-radius: 10px;
+  }
+  .upload__btn {
+    border-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 25%;
+  }
+}
