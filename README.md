@@ -10,5 +10,7 @@ https://exodus4968.herokuapp.com/
    -> vscode에서 git terminal authentication을 false로 설정하고 다시 로그인한다.
 
 2. heroku
+   heroku는 깃 history를 보기 때문에 코드가 바뀌면 commit을 항상 해야 한다.
+
    heroku logs --tail
    로그를 볼 수 있게 한다.
